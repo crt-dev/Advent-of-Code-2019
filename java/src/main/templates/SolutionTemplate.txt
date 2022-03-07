@@ -1,5 +1,7 @@
+package org.crtdev.aoc.solution;
+
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Builder;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -16,7 +18,7 @@ class Input {
     public String right;
 }
 
-public class Day7 {
+public class Day2 {
 
     private List<Input> input;
 
@@ -33,11 +35,11 @@ public class Day7 {
         }
     }
 
-    public String solve() {
-        return "?";
+    public int solve() {
+        return 0;
     }
 
-    public String solve2() {
-        return "?";
+    public int solve2() {
+        return 0;
     }
 }
